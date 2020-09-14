@@ -1,0 +1,118 @@
+/**
+ * jQuery Line Progressbar
+ * Author: KingRayhan<rayhan095@gmail.com>
+ * Author URL: https://electronthemes.com
+ * Version: 1.1.1
+ */
+
+/** Progressbar class css*/
+.progressbar {
+    width: 100%;
+	margin-top: 5px;
+	margin-bottom: 35px;
+	position: relative;
+	background-color: #EEEEEE;
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
+}
+
+.proggress {
+    height: 8px;
+    width: 10px;
+    margin-top: -.5rem;
+    background-color: #3498db;
+    border-radius: 1rem !important;
+}
+.percentCount {
+    float: right;
+    margin-top: 10px;
+    clear: both;
+    font-weight: bold;
+    color: #ff3342;
+    font-size: 1.4rem;
+    width: 5rem;
+    text-align: center;
+    line-height: 3.5rem;
+    background: #fff;
+    border-radius: .5rem;
+    height: 3.5rem;
+	border: 1px solid #fff;
+	position: relative;
+}
+.percentCount::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0d8";
+    position: absolute;
+    bottom: -17px;
+    left: 35%;
+    font-size: 2.6rem;
+    color: #ff3342;
+}
+#jq-s{
+	position: relative;
+}
+#css{
+	position: relative;
+}
+#Photography{
+	position: relative;
+}
+#Video{
+	position: relative;
+}
+#Marketing{
+	position: relative;
+}
+#jq-s .percentCount {
+    position: absolute;
+    top: -58px;
+	left: 90%;
+	animation-name: example;
+	animation-duration: 1.5s;
+	
+
+}
+#css .percentCount {
+    position: absolute;
+    top: -58px;
+    left: 74%;
+    animation-name: example;
+    animation-duration: 1.5s;
+}
+#Photography .percentCount {
+    position: absolute;
+    top: -58px;
+    left: 85%;
+    animation-name: example;
+    animation-duration: 1.5s;
+}
+#Video .percentCount {
+    position: absolute;
+    top: -58px;
+    left: 75%;
+    animation-name: example;
+    animation-duration: 1.5s;
+}
+#Marketing .percentCount {
+    position: absolute;
+    top: -58px;
+    left: 79%;
+    animation-name: example;
+    animation-duration: 1.5s;
+}
+
+
+ /* dddd{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+  } */
+  
+  @keyframes example {
+	from {transform: translateX(-20rem) rotate(-280deg);
+		}
+	to {transform: translateX(0) rotate(0deg);
+		}
+  }

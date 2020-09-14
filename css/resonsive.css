@@ -1,0 +1,184 @@
+
+@media all and (max-width:1200px)
+{
+    header {
+        height: 680px;
+    } 
+    .menu ul li {
+        padding: 0 1rem;
+    }
+  
+.title::after {
+    left: 23%;
+}
+
+.portfulio .title::after {
+    left: 26%; 
+
+}
+.blog .title::after {
+    left: 29%;
+}
+.contact .title::after {
+    content: "";
+    position: absolute;
+    top: -6%;
+    left: 28%;
+    background: rgb(255, 51, 66);
+    height: 5.5rem;
+    width: 0.5rem;
+}
+}
+
+@media all and (max-width:992px){
+
+
+html{
+    font-size: 55.5%;
+    scroll-behavior: smooth;
+}
+.menu{
+    background: #fff;
+    margin-top: 0;
+}
+  .menu ul{ 
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+text-align: left;
+}
+.menu ul li{
+
+   display: block !important;
+  
+
+}
+.menu ul li a{
+
+    display: block;
+    color: #000 !important;
+    font-size: 1.7rem !important;
+
+} 
+ul.nav.nav-pills {
+    display: block;
+}
+.sticky .menu {
+    margin-right: 10% !important;
+
+}
+.menu {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    background: #ddd;
+    height: 100vh;
+    display: none;
+    z-index: 100;
+   
+}
+ul.nav.nav-pills {
+    margin-top: 3.5rem;
+}
+.logo {
+    margin-top: 2rem;
+}
+
+    .menu-icon {
+        margin-top: 1rem;
+        text-align: center;
+        margin-left: 34rem;
+        display: block !important;
+    }
+.menu-icon span {
+    color: #fff;
+    font-size: 3rem;
+    cursor: pointer;
+    z-index: 99;
+}
+.contact-number span {
+    font-size: 1.3rem;
+   
+}
+.contact-number .more-btns {
+    padding: 1rem 1.5rem;
+}
+form input {
+    padding: 1.3rem 3rem !important;
+}
+form textarea {
+    padding: .1rem 3rem !important;
+}
+.sub-btn {
+    padding: 0.7rem 2rem;
+}
+
+.title::after {
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+}
+
+@media all and (max-width:768){
+
+
+.slider-heading h1 {
+    font-size: 55px;
+}
+.contents h1 {
+    font-size: 50px;
+}
+.counter h4 {
+    margin-bottom: 8rem;
+}
+footer { height: 14rem;
+}
+
+}
+@media all and (max-width:577px){
+
+    .contents h1 {
+        font-size: 40px;
+    }
+    .slider-heading h1 {
+        font-size: 50px;
+    }
+    .small{
+        width: 50%;
+        max-width: 50%;
+    }
+    .big{
+        width: 50%;
+        max-width: 50%;
+    }
+    .menu-icon {
+        margin-left: 0rem;
+        
+    }
+    .counter h4 {
+        margin: 11px 0px 59px;
+    }
+    footer {
+        height: 21rem;
+    }
+    .portfulio-icon {
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        text-align: center;
+    }
+    .title h2 {
+        font-size: 3rem;
+    }
+    .title2 h2 {
+        font-size: 4rem;
+    }
+}
+@media (max-width: 360px){
+.contact-number span {
+    font-size: 1.2rem;
+}}
